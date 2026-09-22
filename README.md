@@ -118,6 +118,6 @@ MIT — see `LICENSE`.
 This version is configured for a local LM Studio OpenAI-compatible server and Qwen 3.5. The RAG workspace is used only for corpus indexing/search and is not attached to agents or the global Mastra instance, preventing workspace/skill context from becoming extra system messages. The RAG processor also collapses system context and retrieved evidence into one system message because Qwen 3.5 requires the system message to be first.
 
 1. Use Node.js 22.13+.
-2. Copy `.env.example` to `.env` and set `LM_STUDIO_MODEL` to the exact model ID returned by `curl http://127.0.0.1:1234/v1/models`.
+2. Copy `.env.example` to `.env`. Set `LM_STUDIO_MODEL` to the exact model ID returned by `curl http://127.0.0.1:1234/v1/models`, and configure `TELEGRAM_BOT_TOKEN` and `TELEGRAM_BOT_USERNAME` with the credentials provided by Telegram's BotFather.
 3. Start the Qwen 3.5 model in LM Studio and enable its local server on port 1234.
 4. Run `npm install` and then `npm run dev`.
