@@ -2,7 +2,7 @@ import type { InputProcessorOrWorkflow, ProcessInputArgs, ProcessInputResult } f
 import { architectWorkspace } from './workspace';
 
 const SKIP_IDS = /(?:clarify|specify|analyze)-command/i;
-const MAX_HIT_CHARS = 1200;
+const MAX_HIT_CHARS = 800;
 const TOP_K = 5;
 const SDLC_QUERY = 'software development lifecycle SDLC iterative release testing security privacy accessibility requirements';
 const EDUCATION_QUERY = 'education software learning management system LMS online learning classroom accessibility privacy learner child data release testing requirements SDLC';
