@@ -4,7 +4,7 @@ import { ragContextProcessor } from './rag';
 import { EDUCATION_REQUIREMENTS_PROMPT, EDUCATION_SDLC_PROMPT } from './education-prompts';
 
 const options = {
-  modelSettings: { maxOutputTokens: 4200 },
+  modelSettings: { maxOutputTokens: 1800 },
 } as const;
 
 export const educationRequirementsAgent = new Agent({
@@ -25,7 +25,7 @@ export const educationSdlcSelectionAgent = new Agent({
   model: chatModel,
   defaultOptions: {
     ...options,
-    modelSettings: { maxOutputTokens: 4300 },
+    modelSettings: { maxOutputTokens: 2200 },
   },
   inputProcessors: [ragContextProcessor],
 });
