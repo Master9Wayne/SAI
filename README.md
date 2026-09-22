@@ -109,10 +109,6 @@ SAI/
 └── src/mastra/index.ts
 ```
 
-## License
-
-MIT — see `LICENSE`.
-
 ## Qwen 3.5 / LM Studio setup
 
 This version is configured for a local LM Studio OpenAI-compatible server and Qwen 3.5. The RAG workspace is used only for corpus indexing/search and is not attached to agents or the global Mastra instance, preventing workspace/skill context from becoming extra system messages. The RAG processor also collapses system context and retrieved evidence into one system message because Qwen 3.5 requires the system message to be first.
