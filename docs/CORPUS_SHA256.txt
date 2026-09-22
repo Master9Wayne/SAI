@@ -1,0 +1,5 @@
+# SHA-256 hashes for the SAI indexed corpus
+4a9ea72ba18609203f979ee87a8f5342bf0fc7faab128d8f0ff3e0b17ce73375  docs/ingested/education/education_software_sdlc.json
+5611c1ab4b63a2d66bd773c965be04af019422e1b05289c067c19a6b173731fe  docs/ingested/education/education-software-sdlc.md
+7392f5705c66431d9c3a17955023df2e9a6c51df1dce76e79c89a61eadbc663c  docs/ingested/education/source_index.json
+c44bc941c300189dee2a4ae469e9f8513ca1712d6a2ba94e2d6fbea30b3057fe  docs/ingested/education/README.md

@@ -1,0 +1,407 @@
+[
+  {
+    "software_name": "Moodle",
+    "category": "Education technology / learning management system (LMS)",
+    "license_or_model": "GPL-3.0; plugins/add-ons may have individual licenses",
+    "sdlc_model": "Documented hybrid process: Moodle HQ stable teams explicitly use Scrum; the wider project uses tracker-based integration, peer review, testing, weekly releases, and stable maintenance.",
+    "requirements_evidence": "Roadmaps are curated during quarterly planning for a rolling 12–18 months. Inputs include tracker requests/votes, forums, Product Advisory Groups, staff, and community feedback. Bugs/features enter the tracker and are triaged; major features receive product-team specifications.",
+    "design_or_architecture_evidence": "Official architecture documentation describes a PHP web application with database/file store, modular core-plus-plugin architecture, plugin APIs, upgradeability goals, and single-server or separated/load-balanced deployment. Development documentation describes UX/specification work and iterative design/implementation in sprints.",
+    "implementation_evidence": "Every core fix/new feature must have a Tracker issue. Contributors publish branches; patches are peer-reviewed, discussed, integrated, tested, and released. New features use main; fixes are backported to supported maintenance branches.",
+    "testing_evidence": "Layered QA includes developer/peer/integration testing, PHPUnit, Behat, CI checks, daily regression builds, JMeter performance testing, browser testing, and a 4–6 week volunteer QA cycle for major releases.",
+    "release_or_operations_evidence": "Weekly integration/release workflow; code freeze, beta/RC tags, package publication, QA preparation, and post-release synchronization. Major releases occur every six months; point releases every two months.",
+    "security_or_maintenance_evidence": "Responsible disclosure, restricted Tracker handling, security-team triage, fixes/testing, CVEs, packages, advisories, coordinated disclosure, backports, and supported-branch maintenance are documented.",
+    "limitations": "No single formal SDLC label for the whole project; architecture page is older/read-only; public evidence is stronger for core development than deployment monitoring, incident response, plugin practice, or operational SLOs.",
+    "sources": [
+      [
+        "Development process | Moodle Developer Resources",
+        "https://moodledev.io/general/development/process",
+        "requirements, implementation, Scrum, review, testing, release"
+      ],
+      [
+        "Roadmap | Moodle Developer Resources",
+        "https://moodledev.io/general/community/roadmap",
+        "planning and requirements intake"
+      ],
+      [
+        "Moodle architecture | MoodleDocs",
+        "https://docs.moodle.org/dev/Moodle_architecture",
+        "architecture and upgradeability"
+      ],
+      [
+        "Contributing to Moodle",
+        "https://github.com/moodle/moodle/blob/main/CONTRIBUTING.md",
+        "issue/branch/review/release workflow"
+      ],
+      [
+        "Testing | Moodle Developer Resources",
+        "https://docs.moodle.org/502/en/Development:Tests",
+        "QA and automated testing"
+      ],
+      [
+        "Release process | Moodle Developer Resources",
+        "https://moodledev.io/general/development/process/release",
+        "release operations"
+      ],
+      [
+        "Security procedures | Moodle Developer Resources",
+        "https://moodledev.io/general/development/process/security",
+        "security maintenance"
+      ]
+    ]
+  },
+  {
+    "software_name": "Open edX",
+    "category": "Education technology / online learning platform",
+    "license_or_model": "AGPL-3.0 for openedx-platform; ecosystem licenses vary by repository",
+    "sdlc_model": "Not explicitly named; documented lifecycle links product proposals/roadmap, design/technical planning, pull-request implementation/review, CI/manual QA, named releases, deployment, and security updates.",
+    "requirements_evidence": "Product proposals must state overview, user problem, use cases, solution, implementation plan, resources, and long-term ownership/maintenance. Proposals link GitHub issues, undergo cross-organization review, and require consensus or resolution of objections.",
+    "design_or_architecture_evidence": "Architecture documentation describes LMS/Studio, independently deployed applications, micro-frontends, stable APIs, databases, and background workers. Product/design review requires wireframes, prototypes, final UI, rationale, and technical-deviation documentation.",
+    "implementation_evidence": "Contribution workflow uses forks, Git, issues, pull requests, Conventional Commits, focused changes, rebase, product review, and core-committer code review.",
+    "testing_evidence": "GitHub Actions run PR test builds and checks. Documentation requires tests and a manual test plan; Codecov changed-line coverage, pep8/pylint, static analysis, and XSS linting are documented.",
+    "release_or_operations_evidence": "Named releases are created every six months; community testing lasts two months before availability. edx.org deployment is documented as multiple times daily. Branches/tags and release notes record changes; only the latest release is supported.",
+    "security_or_maintenance_evidence": "Private vulnerability reporting, Security Working Group review/triage, and fixes in the most recent release are documented. Older release lines are not patched under the cited policy.",
+    "limitations": "No officially named SDLC model; multi-repository ecosystem means practices/licenses/release details vary; public evidence is incomplete for organization-wide traceability, deployment pipelines, SLOs, incident response, and every component’s maintenance policy.",
+    "sources": [
+      [
+        "Open edX Product Review Process",
+        "https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review",
+        "requirements/design review"
+      ],
+      [
+        "Open edX Platform Architecture",
+        "https://docs.openedx.org/en/latest/developers/references/developer_guide/architecture.html",
+        "architecture"
+      ],
+      [
+        "Developer’s Guide for Open edX",
+        "https://docs.openedx.org/en/latest/developers/references/developer_guide/index.html",
+        "development and contribution"
+      ],
+      [
+        "Landing Your Work",
+        "https://docs.openedx.org/en/latest/developers/references/developer_guide/process/landing-your-work.html",
+        "implementation/review/testing"
+      ],
+      [
+        "GitHub Actions",
+        "https://docs.openedx.org/en/latest/developers/references/developer_guide/testing/github-actions.html",
+        "CI/testing"
+      ],
+      [
+        "Named Release Branches and Tags",
+        "https://docs.openedx.org/en/latest/community/release_notes/named_release_branches_and_tags.html",
+        "release/deployment"
+      ],
+      [
+        "Open edX Security Policy",
+        "https://docs.openedx.org/en/latest/community/security_policy/index.html",
+        "security/maintenance"
+      ]
+    ]
+  },
+  {
+    "software_name": "Sakai",
+    "category": "Education technology / learning management system (LMS)",
+    "license_or_model": "Educational Community License 2.0 (ECL-2.0)",
+    "sdlc_model": "Not explicitly named; evidence shows community roadmap consultation, Jira intake/requirements, branch/commit/PR review, QA verification, release-manager merging, and maintenance/security releases.",
+    "requirements_evidence": "Community roadmap process defines a three-year roadmap through consultation, working-group feedback, and adoption. Jira tracks bugs, suggestions, tasks, and contributions; feature issues are expected to include use cases and detailed requirements.",
+    "design_or_architecture_evidence": "Repository/module structure and source-install docs show kernel/portal/web/webapi/services/deployment areas, Git, Maven, Java 11, and Tomcat. Historical tool criteria document APIs, configuration, database support, clustering, accessibility, and interoperability, but are not current whole-platform architecture evidence.",
+    "implementation_evidence": "Contributors fork/clone, use feature/issue branches, put Jira keys in branches/commits, open focused pull requests, and use documented merge strategies. CLA requirements apply.",
+    "testing_evidence": "Pull requests are checked for passing tests; QA verifies resolutions and reopens failed issues. Nightly servers are used for testing; install documentation identifies QA-tested version/tool combinations.",
+    "release_or_operations_evidence": "Repository and install guide document supported/development versions, release notes, nightly testing, Maven/Tomcat deployment, configuration, and release-manager merges to supported releases.",
+    "security_or_maintenance_evidence": "Private security Jira/repository workflow, Security Working Group/Core Team review, published advisories, and security-only changes for older unsupported versions are documented.",
+    "limitations": "No explicit SDLC label; evidence is distributed across repositories, Confluence/Jira, and version-specific docs. Some cited criteria are historical/stale; current CI, architecture decisions, coverage, and security SLAs are incomplete publicly.",
+    "sources": [
+      [
+        "sakaiproject/sakai",
+        "https://github.com/sakaiproject/sakai",
+        "identity, license, build, releases"
+      ],
+      [
+        "CONTRIBUTING.md",
+        "https://github.com/sakaiproject/sakai/blob/master/CONTRIBUTING.md",
+        "implementation/review/security workflow"
+      ],
+      [
+        "Sakai Jira Guidelines",
+        "https://sakaiproject.atlassian.net/wiki/spaces/MGT/pages/13953859616/Sakai+Jira+Guidelines",
+        "requirements, QA, release management"
+      ],
+      [
+        "Sakai’s Open 3-Year Roadmap",
+        "https://sakaiproject.atlassian.net/wiki/spaces/REL/pages/1384677712/Sakai+s+Open+3-Year+Roadmap",
+        "planning"
+      ],
+      [
+        "Sakai 23 Install Guide (Source)",
+        "https://sakaiproject.atlassian.net/wiki/spaces/DOC/pages/32324813077/Sakai+23+Install+Guide+Source",
+        "build/deployment/QA"
+      ],
+      [
+        "Security: sakaiproject/sakai",
+        "https://github.com/sakaiproject/sakai/security",
+        "security advisories/process"
+      ]
+    ]
+  },
+  {
+    "software_name": "Kolibri",
+    "category": "Education software; offline-first learning platform",
+    "license_or_model": "MIT License; developed with and for the community by Learning Equality",
+    "sdlc_model": "Gitflow is explicitly documented; lifecycle also includes dev/alpha/beta/final phases, PR review, automated checks, release branches/tags, and release automation.",
+    "requirements_evidence": "Product approach is explicitly open, transparent, community-based, and needs-driven. Suggestions/bugs enter forums and GitHub; labels and milestones prioritize work from P0 to P3.",
+    "design_or_architecture_evidence": "Docs describe Python/Django server, SQLite/PostgreSQL, REST APIs, Vue/JavaScript client, core modules, optional plugins, and plugin hooks. Design rules include layered concerns, small interfaces, simple implementations, composition, and behavior-focused tests.",
+    "implementation_evidence": "Fork/PR workflow against develop; Git LFS, uv, Node 20, pnpm, local/Docker development, migrations, build targets, PR templates, labels, review, and passing checks are documented.",
+    "testing_evidence": "TDD Red/Green/Refactor guidance; pytest/Django backend tests; Jest/Vue Testing Library frontend tests; tox, linting, link checks, pre-commit, manual testing, Gherkin/UI review, and required passing automated tests.",
+    "release_or_operations_evidence": "Dev, alpha, beta, final and patch releases use versions, tags, branches, checklists, automation, Buildkite, wheel/DEB/Android repositories, npm/PyPI publishing, OIDC trusted publishing, and SLSA attestations.",
+    "security_or_maintenance_evidence": "Private GitHub Advisory/email reporting, response targets, coordinated 90-day disclosure, published advisories, Sentry, code-quality rules, and maintenance patches are documented.",
+    "limitations": "Public evidence is incomplete for formal product requirements, sign-off, production monitoring/incident response, dependency governance, and end-of-life policy; documented practice does not prove universal execution.",
+    "sources": [
+      [
+        "Development workflow",
+        "https://kolibri-dev.readthedocs.io/en/develop/development_workflow.html",
+        "Gitflow, PR, release phases"
+      ],
+      [
+        "Tech stack overview",
+        "https://kolibri-dev.readthedocs.io/en/develop/stack.html",
+        "architecture/build/CI"
+      ],
+      [
+        "Testing",
+        "https://kolibri-dev.readthedocs.io/en/latest/testing.html",
+        "TDD and QA"
+      ],
+      [
+        "Kolibri plugin architecture",
+        "https://kolibri-dev.readthedocs.io/en/develop/backend_architecture/plugins.html",
+        "design/architecture"
+      ],
+      [
+        "Release process",
+        "https://kolibri-dev.readthedocs.io/en/develop/release_process.html",
+        "publishing/operations"
+      ],
+      [
+        "Security: learningequality/kolibri",
+        "https://github.com/learningequality/kolibri/security",
+        "security policy"
+      ],
+      [
+        "About Kolibri",
+        "https://learningequality.org/kolibri/about-kolibri/",
+        "education purpose/product approach"
+      ]
+    ]
+  },
+  {
+    "software_name": "Oppia",
+    "category": "Education technology / online learning platform",
+    "license_or_model": "Apache License 2.0",
+    "sdlc_model": "Not explicitly stated; TDD-based planning, issue/PR/CI implementation, scheduled QA/deployment, feature gating, regression handling, and privacy review are documented.",
+    "requirements_evidence": "Technical Design Documents plan features before substantial coding, cover user tasks/stories, testing plans, technical requirements, APIs, database, frontend, privacy, stakeholder feedback, and approval. Issues and starter issues are documented contribution entry points.",
+    "design_or_architecture_evidence": "Repository documents Python/Angular/Google App Engine. TDD guidance covers high-level and architectural decisions, evaluation criteria, storage models, user flows, controllers/services, API changes, and database design.",
+    "implementation_evidence": "CLA, setup, issue selection, code/style guidance, PR instructions, develop branch, and TDD implementation plans are documented; backend/frontend work may be split into separate PRs for isolated testing/review.",
+    "testing_evidence": "Backend, frontend, end-to-end, TypeScript, Lighthouse, Pylint, and ESLint tests are listed. CI uses GitHub Actions, merge queue, local reproduction, and develop-branch comparison. Monthly release QA tests critical user journeys and verifies fixes.",
+    "release_or_operations_evidence": "Monthly releases are typically cut first Wednesday; QA finishes the following week and final deployment the week after. Release coordinators deploy test/production; feature gating supports controlled exposure.",
+    "security_or_maintenance_evidence": "Security reports go to admin@oppia.org. Privacy-aware programming requires data-flow review in design/implementation. Revert-and-regression policy covers revert/fix-forward, tracking, notification, and preventive tests/lint/review changes.",
+    "limitations": "No formal SDLC label; public evidence lacks complete requirements lifecycle, deployment infrastructure, vulnerability SLA, security history, and metrics. Some wiki/Google Docs may change over time.",
+    "sources": [
+      [
+        "oppia/oppia",
+        "https://github.com/oppia/oppia",
+        "identity, stack, license, security contact"
+      ],
+      [
+        "Tutorial-Learn-how-to-write-a-TDD.md",
+        "https://github.com/oppia/oppia-web-developer-docs/blob/develop/Tutorial-Learn-how-to-write-a-TDD.md",
+        "requirements/design/implementation"
+      ],
+      [
+        "Contributing code to Oppia",
+        "https://github.com/oppia/oppia/wiki/Contributing-code-to-Oppia",
+        "contribution workflow"
+      ],
+      [
+        "Tests",
+        "https://github.com/oppia/oppia/wiki/Tests",
+        "testing"
+      ],
+      [
+        "Release schedule and other information",
+        "https://github.com/oppia/oppia/wiki/Release-schedule-and-other-information",
+        "release/QA/deployment"
+      ],
+      [
+        "Privacy aware programming",
+        "https://github.com/oppia/oppia/wiki/Privacy-aware-programming",
+        "privacy/security"
+      ],
+      [
+        "Revert and Regression Policy",
+        "https://github.com/oppia/oppia/wiki/Revert-and-Regression-Policy",
+        "maintenance"
+      ]
+    ]
+  },
+  {
+    "software_name": "Canvas LMS",
+    "category": "Education technology; learning management system (LMS)",
+    "license_or_model": "AGPLv3 open-source software; maintained by Instructure",
+    "sdlc_model": "Not explicitly stated; evidence shows issue/feature intake, focused PRs, automated tests/linting, code/QA/product review, merge, and frequent beta-to-production deploys.",
+    "requirements_evidence": "GitHub issues are for defects; feature requests go to Canvas Community. Bug reports require summary, reproduction, expected behavior, and context. Roadmap feedback guides product development.",
+    "design_or_architecture_evidence": "Repository structure separates app/config/migrations/lib/ui/packages/spec/build files. Canvas documents REST/HTTPS/JSON/OAuth2 APIs and OpenAPI generation. CODEOWNERS assigns architecture/service ownership.",
+    "implementation_evidence": "CONTRIBUTING.md documents master/stable guidance, focused commits, rationale, linked issues, Test Plan, React UI, Ruby/JS/style linting, contributor agreement, and review/merge gates.",
+    "testing_evidence": "Automated suite, targeted local tests, script/rlint, engineer review, QA test-plan execution, product-manager review for UI/behavior, and exposed spec/Jest/Vitest/Jenkins artifacts are documented.",
+    "release_or_operations_evidence": "Deploy notes describe two-week deploys for fixes/performance/features, beta testing before production, public release notes, and institution review of custom CSS/JS after deploys.",
+    "security_or_maintenance_evidence": "Private Bugcrowd bug bounty and security@instructure.com reporting are documented. API change logs, recurring deploy notes, bug/performance fixes, and deprecation tracking support maintenance evidence.",
+    "limitations": "Public repo may not represent proprietary hosted-service practices. No named SDLC model; requirements, architecture decisions, CI thresholds, SRE/rollback, SLOs, vulnerability SLAs, and quantitative QA are not fully public.",
+    "sources": [
+      [
+        "instructure/canvas-lms",
+        "https://github.com/instructure/canvas-lms",
+        "identity/license/repository structure"
+      ],
+      [
+        "CONTRIBUTING.md",
+        "https://github.com/instructure/canvas-lms/blob/master/CONTRIBUTING.md",
+        "implementation/review/testing"
+      ],
+      [
+        "issue_template.md",
+        "https://github.com/instructure/canvas-lms/blob/master/issue_template.md",
+        "requirements intake"
+      ],
+      [
+        "SECURITY.md",
+        "https://github.com/instructure/canvas-lms/blob/master/SECURITY.md",
+        "security"
+      ],
+      [
+        "Canvas developer documentation",
+        "https://developerdocs.instructure.com/services/canvas",
+        "API architecture"
+      ],
+      [
+        "Canvas Deploy Notes (2026-10-07)",
+        "https://community.instructure.com/en/discussion/666834/canvas-deploy-notes-2026-10-07",
+        "release/deployment"
+      ],
+      [
+        "Canvas Release",
+        "https://community.instructure.com/en/categories/canvas-release-notes",
+        "release communications"
+      ]
+    ]
+  },
+  {
+    "software_name": "OpenBoard",
+    "category": "Education software / interactive whiteboard",
+    "license_or_model": "GPL-3.0",
+    "sdlc_model": "Not explicitly stated; open-source issue/roadmap workflow with branches, pull requests, versioned binary releases, and changelogs.",
+    "requirements_evidence": "Roadmap lists future release goals. Feature-request template asks for problem, desired solution, alternatives, and context, with educational-use/ease-of-use constraints. Issues accept bugs and features.",
+    "design_or_architecture_evidence": "Qt desktop application primarily in C++ with JavaScript/HTML/CSS. Source modules cover board/core/gui/network/pdf/web. Web widgets use .wgt and an integrated API. qmake is the official release build path; CMake is community-contributed.",
+    "implementation_evidence": "Contributor guide documents clone, branch, coding, technical commit notes, issue-linked PRs, source builds, and supported build environments. It states there are no specific coding guidelines.",
+    "testing_evidence": "Contributors must test thoroughly and compile before submission. Bug template requires reproduction, expected/actual behavior, versions, OS, branch, and hardware details. Changelog records fixes and known issues; no formal public automation/coverage claim is made.",
+    "release_or_operations_evidence": "Versioned releases/RCs include dates, commits, change notes, contributors, and downloadable assets. README lists stable/dev versions, maintained platforms, installers, and package/build paths.",
+    "security_or_maintenance_evidence": "Roadmap, issues, changelog, releases, platform support, and dependency/Qt fixes show defect maintenance. GitHub reports no SECURITY.md and no published advisories for the cited repository.",
+    "limitations": "No formal SDLC, governance charter, traceability, architecture decision records, comprehensive CI/test evidence, release sign-off, monitoring, or security policy is public. CMake documentation is explicitly community-contributed.",
+    "sources": [
+      [
+        "OpenBoard repository",
+        "https://github.com/OpenBoard-org/OpenBoard",
+        "identity/license/implementation"
+      ],
+      [
+        "Roadmap",
+        "https://github.com/OpenBoard-org/OpenBoard/wiki/Roadmap",
+        "requirements/planning"
+      ],
+      [
+        "A How to Guide for New Contributors",
+        "https://github.com/OpenBoard-org/OpenBoard/wiki/A-How-to-Guide-for-New-Contributors",
+        "implementation/testing"
+      ],
+      [
+        "Build OpenBoard from source",
+        "https://github.com/OpenBoard-org/OpenBoard/wiki/Build-OpenBoard-from-source",
+        "build/operations"
+      ],
+      [
+        "Feature request template",
+        "https://raw.githubusercontent.com/OpenBoard-org/OpenBoard/master/.github/ISSUE_TEMPLATE/feature_request.md",
+        "requirements intake"
+      ],
+      [
+        "Releases",
+        "https://github.com/OpenBoard-org/OpenBoard/releases",
+        "release evidence"
+      ],
+      [
+        "Security",
+        "https://github.com/OpenBoard-org/OpenBoard/security",
+        "security limitation"
+      ],
+      [
+        "Changelog",
+        "https://github.com/OpenBoard-org/OpenBoard/wiki/Changelog",
+        "maintenance"
+      ]
+    ]
+  },
+  {
+    "software_name": "BigBlueButton",
+    "category": "Education technology: open-source virtual classroom and web-conferencing system",
+    "license_or_model": "LGPL-3.0",
+    "sdlc_model": "Official FAQ explicitly documents: Planning -> Design -> Development -> Beta Testing -> Release Candidate -> General Release. It does not label this as Agile, Scrum, Waterfall, or another standard model.",
+    "requirements_evidence": "Roadmap is driven by online-learning target market and user stories for teacher, student, administrator, support manager, and developer. It prioritizes stability, usability, modularity, code quality, scalability, and API simplicity; FAQ references roadmap/issues/community requests.",
+    "design_or_architecture_evidence": "Architecture page documents HTML5 React/TypeScript client, WebRTC, GraphQL, PostgreSQL, Redis, Akka, FreeSWITCH, mediasoup/SFU, nginx, recording/conversion flows, and a 3.0 restructuring. Design guide documents mobile-first, accessibility, cross-platform, and extensible UI.",
+    "implementation_evidence": "Development guide covers source modification/compilation, component/package organization, Git/GitHub, docker-dev, issues, design docs for major changes, committer review, and testing committed updates against latest builds.",
+    "testing_evidence": "Roadmap documents unit/integration/stress-test goals; FAQ requires peer review and testing by other developers; beta testing continues until major bugs are addressed. Public repository exposes GNS3/Playwright test assets.",
+    "release_or_operations_evidence": "Development moves to Ubuntu beta packages, iterative beta testing, RC monitoring, and general release after stability. Releases are quality-based rather than date-based. Installer docs cover Ubuntu 22.04, SSL/network requirements, bbb-install.sh, upgrades, and bbb-conf --check.",
+    "security_or_maintenance_evidence": "Security policy documents supported versions and private reporting through GitHub Advisories or security@bigbluebutton.org. API docs describe HTTPS, checksum authentication, and signed JWT callbacks. Roadmap/FAQ document refactoring, stability/usability work, and issue maintenance.",
+    "limitations": "FAQ lifecycle documentation may be longstanding/versioned; public evidence does not establish current complete CI rules, test coverage, deployment automation, or vulnerability-response SLA.",
+    "sources": [
+      [
+        "Road Map - BigBlueButton",
+        "https://docs.bigbluebutton.org/support/road-map/",
+        "requirements/testing/release goals"
+      ],
+      [
+        "FAQs - BigBlueButton",
+        "https://docs.bigbluebutton.org/4.0/support/faq/",
+        "explicit six-stage lifecycle/release process"
+      ],
+      [
+        "Architecture",
+        "https://docs.bigbluebutton.org/development/architecture/",
+        "architecture"
+      ],
+      [
+        "Development Guide",
+        "https://docs.bigbluebutton.org/development/guide/",
+        "implementation workflow"
+      ],
+      [
+        "Development Design Guide",
+        "https://docs.bigbluebutton.org/development/design/",
+        "design principles"
+      ],
+      [
+        "Security Policy",
+        "https://github.com/bigbluebutton/bigbluebutton/blob/v3.0.x-develop/SECURITY.md",
+        "security/maintenance"
+      ],
+      [
+        "Install BigBlueButton",
+        "https://docs.bigbluebutton.org/administration/install/",
+        "deployment/operations"
+      ],
+      [
+        "Releases",
+        "https://github.com/bigbluebutton/bigbluebutton/releases",
+        "release evidence"
+      ]
+    ]
+  }
+]

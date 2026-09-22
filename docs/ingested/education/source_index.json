@@ -1,0 +1,344 @@
+[
+  {
+    "software_name": "Moodle",
+    "title": "Development process | Moodle Developer Resources",
+    "url": "https://moodledev.io/general/development/process",
+    "supports": "requirements, implementation, Scrum, review, testing, release"
+  },
+  {
+    "software_name": "Moodle",
+    "title": "Roadmap | Moodle Developer Resources",
+    "url": "https://moodledev.io/general/community/roadmap",
+    "supports": "planning and requirements intake"
+  },
+  {
+    "software_name": "Moodle",
+    "title": "Moodle architecture | MoodleDocs",
+    "url": "https://docs.moodle.org/dev/Moodle_architecture",
+    "supports": "architecture and upgradeability"
+  },
+  {
+    "software_name": "Moodle",
+    "title": "Contributing to Moodle",
+    "url": "https://github.com/moodle/moodle/blob/main/CONTRIBUTING.md",
+    "supports": "issue/branch/review/release workflow"
+  },
+  {
+    "software_name": "Moodle",
+    "title": "Testing | Moodle Developer Resources",
+    "url": "https://docs.moodle.org/502/en/Development:Tests",
+    "supports": "QA and automated testing"
+  },
+  {
+    "software_name": "Moodle",
+    "title": "Release process | Moodle Developer Resources",
+    "url": "https://moodledev.io/general/development/process/release",
+    "supports": "release operations"
+  },
+  {
+    "software_name": "Moodle",
+    "title": "Security procedures | Moodle Developer Resources",
+    "url": "https://moodledev.io/general/development/process/security",
+    "supports": "security maintenance"
+  },
+  {
+    "software_name": "Open edX",
+    "title": "Open edX Product Review Process",
+    "url": "https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review",
+    "supports": "requirements/design review"
+  },
+  {
+    "software_name": "Open edX",
+    "title": "Open edX Platform Architecture",
+    "url": "https://docs.openedx.org/en/latest/developers/references/developer_guide/architecture.html",
+    "supports": "architecture"
+  },
+  {
+    "software_name": "Open edX",
+    "title": "Developer’s Guide for Open edX",
+    "url": "https://docs.openedx.org/en/latest/developers/references/developer_guide/index.html",
+    "supports": "development and contribution"
+  },
+  {
+    "software_name": "Open edX",
+    "title": "Landing Your Work",
+    "url": "https://docs.openedx.org/en/latest/developers/references/developer_guide/process/landing-your-work.html",
+    "supports": "implementation/review/testing"
+  },
+  {
+    "software_name": "Open edX",
+    "title": "GitHub Actions",
+    "url": "https://docs.openedx.org/en/latest/developers/references/developer_guide/testing/github-actions.html",
+    "supports": "CI/testing"
+  },
+  {
+    "software_name": "Open edX",
+    "title": "Named Release Branches and Tags",
+    "url": "https://docs.openedx.org/en/latest/community/release_notes/named_release_branches_and_tags.html",
+    "supports": "release/deployment"
+  },
+  {
+    "software_name": "Open edX",
+    "title": "Open edX Security Policy",
+    "url": "https://docs.openedx.org/en/latest/community/security_policy/index.html",
+    "supports": "security/maintenance"
+  },
+  {
+    "software_name": "Sakai",
+    "title": "sakaiproject/sakai",
+    "url": "https://github.com/sakaiproject/sakai",
+    "supports": "identity, license, build, releases"
+  },
+  {
+    "software_name": "Sakai",
+    "title": "CONTRIBUTING.md",
+    "url": "https://github.com/sakaiproject/sakai/blob/master/CONTRIBUTING.md",
+    "supports": "implementation/review/security workflow"
+  },
+  {
+    "software_name": "Sakai",
+    "title": "Sakai Jira Guidelines",
+    "url": "https://sakaiproject.atlassian.net/wiki/spaces/MGT/pages/13953859616/Sakai+Jira+Guidelines",
+    "supports": "requirements, QA, release management"
+  },
+  {
+    "software_name": "Sakai",
+    "title": "Sakai’s Open 3-Year Roadmap",
+    "url": "https://sakaiproject.atlassian.net/wiki/spaces/REL/pages/1384677712/Sakai+s+Open+3-Year+Roadmap",
+    "supports": "planning"
+  },
+  {
+    "software_name": "Sakai",
+    "title": "Sakai 23 Install Guide (Source)",
+    "url": "https://sakaiproject.atlassian.net/wiki/spaces/DOC/pages/32324813077/Sakai+23+Install+Guide+Source",
+    "supports": "build/deployment/QA"
+  },
+  {
+    "software_name": "Sakai",
+    "title": "Security: sakaiproject/sakai",
+    "url": "https://github.com/sakaiproject/sakai/security",
+    "supports": "security advisories/process"
+  },
+  {
+    "software_name": "Kolibri",
+    "title": "Development workflow",
+    "url": "https://kolibri-dev.readthedocs.io/en/develop/development_workflow.html",
+    "supports": "Gitflow, PR, release phases"
+  },
+  {
+    "software_name": "Kolibri",
+    "title": "Tech stack overview",
+    "url": "https://kolibri-dev.readthedocs.io/en/develop/stack.html",
+    "supports": "architecture/build/CI"
+  },
+  {
+    "software_name": "Kolibri",
+    "title": "Testing",
+    "url": "https://kolibri-dev.readthedocs.io/en/latest/testing.html",
+    "supports": "TDD and QA"
+  },
+  {
+    "software_name": "Kolibri",
+    "title": "Kolibri plugin architecture",
+    "url": "https://kolibri-dev.readthedocs.io/en/develop/backend_architecture/plugins.html",
+    "supports": "design/architecture"
+  },
+  {
+    "software_name": "Kolibri",
+    "title": "Release process",
+    "url": "https://kolibri-dev.readthedocs.io/en/develop/release_process.html",
+    "supports": "publishing/operations"
+  },
+  {
+    "software_name": "Kolibri",
+    "title": "Security: learningequality/kolibri",
+    "url": "https://github.com/learningequality/kolibri/security",
+    "supports": "security policy"
+  },
+  {
+    "software_name": "Kolibri",
+    "title": "About Kolibri",
+    "url": "https://learningequality.org/kolibri/about-kolibri/",
+    "supports": "education purpose/product approach"
+  },
+  {
+    "software_name": "Oppia",
+    "title": "oppia/oppia",
+    "url": "https://github.com/oppia/oppia",
+    "supports": "identity, stack, license, security contact"
+  },
+  {
+    "software_name": "Oppia",
+    "title": "Tutorial-Learn-how-to-write-a-TDD.md",
+    "url": "https://github.com/oppia/oppia-web-developer-docs/blob/develop/Tutorial-Learn-how-to-write-a-TDD.md",
+    "supports": "requirements/design/implementation"
+  },
+  {
+    "software_name": "Oppia",
+    "title": "Contributing code to Oppia",
+    "url": "https://github.com/oppia/oppia/wiki/Contributing-code-to-Oppia",
+    "supports": "contribution workflow"
+  },
+  {
+    "software_name": "Oppia",
+    "title": "Tests",
+    "url": "https://github.com/oppia/oppia/wiki/Tests",
+    "supports": "testing"
+  },
+  {
+    "software_name": "Oppia",
+    "title": "Release schedule and other information",
+    "url": "https://github.com/oppia/oppia/wiki/Release-schedule-and-other-information",
+    "supports": "release/QA/deployment"
+  },
+  {
+    "software_name": "Oppia",
+    "title": "Privacy aware programming",
+    "url": "https://github.com/oppia/oppia/wiki/Privacy-aware-programming",
+    "supports": "privacy/security"
+  },
+  {
+    "software_name": "Oppia",
+    "title": "Revert and Regression Policy",
+    "url": "https://github.com/oppia/oppia/wiki/Revert-and-Regression-Policy",
+    "supports": "maintenance"
+  },
+  {
+    "software_name": "Canvas LMS",
+    "title": "instructure/canvas-lms",
+    "url": "https://github.com/instructure/canvas-lms",
+    "supports": "identity/license/repository structure"
+  },
+  {
+    "software_name": "Canvas LMS",
+    "title": "CONTRIBUTING.md",
+    "url": "https://github.com/instructure/canvas-lms/blob/master/CONTRIBUTING.md",
+    "supports": "implementation/review/testing"
+  },
+  {
+    "software_name": "Canvas LMS",
+    "title": "issue_template.md",
+    "url": "https://github.com/instructure/canvas-lms/blob/master/issue_template.md",
+    "supports": "requirements intake"
+  },
+  {
+    "software_name": "Canvas LMS",
+    "title": "SECURITY.md",
+    "url": "https://github.com/instructure/canvas-lms/blob/master/SECURITY.md",
+    "supports": "security"
+  },
+  {
+    "software_name": "Canvas LMS",
+    "title": "Canvas developer documentation",
+    "url": "https://developerdocs.instructure.com/services/canvas",
+    "supports": "API architecture"
+  },
+  {
+    "software_name": "Canvas LMS",
+    "title": "Canvas Deploy Notes (2026-10-07)",
+    "url": "https://community.instructure.com/en/discussion/666834/canvas-deploy-notes-2026-10-07",
+    "supports": "release/deployment"
+  },
+  {
+    "software_name": "Canvas LMS",
+    "title": "Canvas Release",
+    "url": "https://community.instructure.com/en/categories/canvas-release-notes",
+    "supports": "release communications"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "OpenBoard repository",
+    "url": "https://github.com/OpenBoard-org/OpenBoard",
+    "supports": "identity/license/implementation"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "Roadmap",
+    "url": "https://github.com/OpenBoard-org/OpenBoard/wiki/Roadmap",
+    "supports": "requirements/planning"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "A How to Guide for New Contributors",
+    "url": "https://github.com/OpenBoard-org/OpenBoard/wiki/A-How-to-Guide-for-New-Contributors",
+    "supports": "implementation/testing"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "Build OpenBoard from source",
+    "url": "https://github.com/OpenBoard-org/OpenBoard/wiki/Build-OpenBoard-from-source",
+    "supports": "build/operations"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "Feature request template",
+    "url": "https://raw.githubusercontent.com/OpenBoard-org/OpenBoard/master/.github/ISSUE_TEMPLATE/feature_request.md",
+    "supports": "requirements intake"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "Releases",
+    "url": "https://github.com/OpenBoard-org/OpenBoard/releases",
+    "supports": "release evidence"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "Security",
+    "url": "https://github.com/OpenBoard-org/OpenBoard/security",
+    "supports": "security limitation"
+  },
+  {
+    "software_name": "OpenBoard",
+    "title": "Changelog",
+    "url": "https://github.com/OpenBoard-org/OpenBoard/wiki/Changelog",
+    "supports": "maintenance"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "Road Map - BigBlueButton",
+    "url": "https://docs.bigbluebutton.org/support/road-map/",
+    "supports": "requirements/testing/release goals"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "FAQs - BigBlueButton",
+    "url": "https://docs.bigbluebutton.org/4.0/support/faq/",
+    "supports": "explicit six-stage lifecycle/release process"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "Architecture",
+    "url": "https://docs.bigbluebutton.org/development/architecture/",
+    "supports": "architecture"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "Development Guide",
+    "url": "https://docs.bigbluebutton.org/development/guide/",
+    "supports": "implementation workflow"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "Development Design Guide",
+    "url": "https://docs.bigbluebutton.org/development/design/",
+    "supports": "design principles"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "Security Policy",
+    "url": "https://github.com/bigbluebutton/bigbluebutton/blob/v3.0.x-develop/SECURITY.md",
+    "supports": "security/maintenance"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "Install BigBlueButton",
+    "url": "https://docs.bigbluebutton.org/administration/install/",
+    "supports": "deployment/operations"
+  },
+  {
+    "software_name": "BigBlueButton",
+    "title": "Releases",
+    "url": "https://github.com/bigbluebutton/bigbluebutton/releases",
+    "supports": "release evidence"
+  }
+]
