@@ -116,4 +116,7 @@ This version is configured for a local LM Studio OpenAI-compatible server and Qw
 1. Use Node.js 22.13+.
 2. Copy .env.example to .env and set LM_STUDIO_MODEL to the exact model ID returned by curl http://127.0.0.1:1234/v1/models.
 3. Start the Qwen 3.5 model in LM Studio and enable its local server on port 1234.
-4. Run `npm install` and then `npm run dev`.
+4. Run `npm install` and then `npm run dev`
+
+## Screenshots
+
