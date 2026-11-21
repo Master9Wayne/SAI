@@ -120,3 +120,5 @@ This version is configured for a local LM Studio OpenAI-compatible server and Qw
 
 ## Screenshots
 
+![Homepage Screenshot](sai1.png)
+Frontend Interface for SAI
