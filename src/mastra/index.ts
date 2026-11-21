@@ -17,6 +17,10 @@ export const mastra = new Mastra({
     id: 'sai-storage',
     url: process.env.MASTRA_DATABASE_URL ?? 'file:./sai.db',
   }),
+  server: {
+    // Local 9B model: the two-step workflow can take many minutes.
+    timeout: 30 * 60 * 1000, // 30 minutes, in ms
+  },
 });
 
 // Keep the workspace for the RAG corpus/index, but do not attach it to the

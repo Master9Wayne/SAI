@@ -1,10 +1,11 @@
 import { Agent } from '@mastra/core/agent';
 import { chatModel } from './lm-studio';
-import { ragContextProcessor } from './rag';
+import { requirementsRag, sdlcRag } from './rag';
 import { EDUCATION_REQUIREMENTS_PROMPT, EDUCATION_SDLC_PROMPT } from './education-prompts';
 
-const options = {
-  modelSettings: { maxOutputTokens: 1800 },
+// Same setting the coordinator uses: stops Qwen spending output tokens on hidden reasoning.
+const noThinking = {
+  lmStudio: { reasoningEffort: 'none', enable_thinking: false },
 } as const;
 
 export const educationRequirementsAgent = new Agent({
@@ -13,8 +14,11 @@ export const educationRequirementsAgent = new Agent({
   description: 'Builds an evidence-grounded requirements profile for education software.',
   instructions: EDUCATION_REQUIREMENTS_PROMPT,
   model: chatModel,
-  defaultOptions: options,
-  inputProcessors: [ragContextProcessor],
+  defaultOptions: {
+    modelSettings: { maxOutputTokens: 1500 },
+    providerOptions: noThinking,
+  },
+  inputProcessors: [requirementsRag],
 });
 
 export const educationSdlcSelectionAgent = new Agent({
@@ -24,8 +28,8 @@ export const educationSdlcSelectionAgent = new Agent({
   instructions: EDUCATION_SDLC_PROMPT,
   model: chatModel,
   defaultOptions: {
-    ...options,
-    modelSettings: { maxOutputTokens: 2200 },
+    modelSettings: { maxOutputTokens: 1800 },
+    providerOptions: noThinking,
   },
-  inputProcessors: [ragContextProcessor],
+  inputProcessors: [sdlcRag],
 });
